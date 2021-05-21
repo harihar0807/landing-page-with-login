@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+body {
+  
+  background-image: url("https://i.ibb.co/n3hYqbQ/pexels-katerina-holmes-5905700.jpg");
+  background-repeat: no-repeat;
+  background-size: 1400px 700px;
+  
+ }
+ .container{
+   display: inline-block;
+ }
+ img{
+       width: 150px;
+       height: 40px;
+      
+ }
+ .button{
+   margin-left: 900px;
+   padding: 15px;
+   
+   border-radius: 10px;
+   
+   border: none;
+   background-color: rgb(90, 89, 89);
+   color: white;
+ }
+ .profile{
+        margin-left: 20px;
+        
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+ }
